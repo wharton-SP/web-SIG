@@ -3,6 +3,7 @@ import { AlertTriangle } from 'lucide-react'
 import { Database } from 'lucide-react'
 import { Earth } from 'lucide-react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -15,18 +16,18 @@ const Home = () => {
                             <h3>(Système d'Information Géometrique)</h3>
                         </div>
                         <div className='flex gap-6'>
-                            <button className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl">
+                            <Link to="/general" className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl flex gap-5">
                                 <Earth />
                                 <span>Généralité</span>
-                            </button>
-                            <button className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl">
+                            </Link>
+                            <Link to="/tools" className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl flex gap-5">
                                 <Wrench />
                                 <span>Outils</span>
-                            </button>
-                            <button className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl">
+                            </Link>
+                            <Link to="/data" className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl flex gap-5">
                                 <Database />
                                 <span>Données</span>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

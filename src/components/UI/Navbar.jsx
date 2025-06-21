@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ theme }) => {
 
@@ -20,9 +21,9 @@ const Navbar = ({ theme }) => {
 
     return (
         <div className="navbar bg-base-100 shadow-sm fixed">
-            <div className="flex-1">
-                <a className="btn btn-ghost text-xl">Web-SIG</a>
-            </div>
+            <Link to="/" className="flex-1">
+                <a className="px-4 py-3 text-xl">Web-SIG</a>
+            </Link>
             <div className="flex-none">
                 <label className="flex cursor-pointer gap-2">
                     <svg
