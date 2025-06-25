@@ -21,6 +21,20 @@ const Navbar = ({ theme }) => {
 
     return (
         <div className="navbar bg-base-100 shadow-sm fixed">
+            <div className="dropdown md:hidden">
+                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
+                </div>
+                <ul
+                    tabIndex={0}
+                    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <Link to="/" className='py-2 px-1 rounded-box hover:bg-base-100'>Introduction</Link>
+                    <Link to="/general" className='py-2 px-1 rounded-box hover:bg-base-100'>Généralité</Link>
+                    <Link to="/tools" className='py-2 px-1 rounded-box hover:bg-base-100'>Outils</Link>
+                    <Link to="/data" className='py-2 px-1 rounded-box hover:bg-base-100'>Données</Link>
+                    <Link to="/about" className='py-2 px-1 rounded-box hover:bg-base-100'>À propos</Link>
+                </ul>
+            </div>
             <Link to="/" className="flex-1">
                 <a className="px-4 py-3 text-xl">Web-SIG</a>
             </Link>
