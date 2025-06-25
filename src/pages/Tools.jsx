@@ -5,7 +5,6 @@ const Tools = () => {
     return (
         <div className='max-h-screen h-screen flex'>
             <Navigation/>
-            <div className="divider divider-horizontal"></div>
             <Content>
                 <div className='flex flex-col gap-4 '>
                     <h1 className='text-2xl font-bold'>Bienvenue dans la section Généralité</h1>

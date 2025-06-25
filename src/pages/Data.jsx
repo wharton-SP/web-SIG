@@ -7,7 +7,6 @@ const Data = () => {
     return (
         <div className='max-h-screen h-screen flex'>
             <Navigation />
-            <div className="divider divider-horizontal"></div>
             <Content>
                 <div className='flex flex-col gap-4'>
                     <section className="mb-8">
