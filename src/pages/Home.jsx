@@ -24,7 +24,7 @@ const Home = () => {
                             </Link>
                             <Link to="/data" className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl flex gap-5">
                                 <Database />
-                                <span>Données</span>
+                                <span>Données (POSTGIS)</span>
                             </Link>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const Home = () => {
             <div className="toast">
                 <div className="alert alert-warning shadow-lg">
                     <AlertTriangle/>
-                    <span>Ce site est encore en développement, alors is se pourrait <br /> qu'il se comporte de façon inattendu</span>
+                    <span>Ce site est encore en développement, alors il se pourrait qu'il se comporte de façon inattendu</span>
                 </div>
             </div>
         </div>
