@@ -5,9 +5,8 @@ import Badge from "../components/utils/Badge"
 
 const General = () => {
     return (
-        <div className='max-h-screen h-screen flex'>
+        <div className='max-h-screen h-screen flex w-screen'>
             <Navigation />
-            <div className="divider divider-horizontal"></div>
             <Content>
                 <div className='flex flex-col gap-4 '>
                     <section className="mb-8">

@@ -4,14 +4,12 @@ import Sidebar from './utils/Sidebar'
 const Navigation = () => {
     return (
         <Sidebar>
-            <div>
-                <ul className='menu bg-base-200 rounded-box'>
-                    <li><Link to="/">Introduction </Link></li>
-                    <li><Link to="/general">Généralité</Link></li>
-                    <li><Link to="/tools">Outils</Link></li>
-                    <li><Link to="/data">Données</Link></li>
-                    <li><Link to="/about">À propos</Link></li>
-                </ul>
+            <div className='grid rounded-box'>
+                <Link to="/" className='py-2 px-1 rounded-box hover:bg-base-100'>Introduction</Link>
+                <Link to="/general" className='py-2 px-1 rounded-box hover:bg-base-100'>Généralité</Link>
+                <Link to="/tools" className='py-2 px-1 rounded-box hover:bg-base-100'>Outils</Link>
+                <Link to="/data" className='py-2 px-1 rounded-box hover:bg-base-100'>Données</Link>
+                <Link to="/about" className='py-2 px-1 rounded-box hover:bg-base-100'>À propos</Link>
             </div>
         </Sidebar>
     )
