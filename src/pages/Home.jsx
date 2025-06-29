@@ -18,13 +18,9 @@ const Home = () => {
                                 <Earth />
                                 <span>Généralité</span>
                             </Link>
-                            <Link to="/tools" className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl flex gap-5">
-                                <Wrench />
-                                <span>Outils</span>
-                            </Link>
                             <Link to="/data" className="btn btn-neutral hover:btn-accent w-60 h-20 rounded-2xl flex gap-5">
                                 <Database />
-                                <span>Données (POSTGIS)</span>
+                                <span>Requêtes Spatiales (POSTGIS)</span>
                             </Link>
                         </div>
                     </div>

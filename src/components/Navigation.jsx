@@ -7,9 +7,7 @@ const Navigation = () => {
             <div className='grid rounded-box'>
                 <Link to="/" className='py-2 px-1 rounded-box hover:bg-base-100'>Introduction</Link>
                 <Link to="/general" className='py-2 px-1 rounded-box hover:bg-base-100'>Généralité</Link>
-                <Link to="/tools" className='py-2 px-1 rounded-box hover:bg-base-100'>Outils</Link>
-                <Link to="/data" className='py-2 px-1 rounded-box hover:bg-base-100'>Données</Link>
-                <Link to="/about" className='py-2 px-1 rounded-box hover:bg-base-100'>À propos</Link>
+                <Link to="/data" className='py-2 px-1 rounded-box hover:bg-base-100'>Requêtes Spatiales</Link>
             </div>
         </Sidebar>
     )
